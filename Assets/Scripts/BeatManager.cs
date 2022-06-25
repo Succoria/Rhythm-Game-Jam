@@ -31,7 +31,7 @@ public class BeatManager : MonoBehaviour
 	void Start ()
 	{
 		Debug.Assert(AudioSettings.Songs.Length > 0, "[BeatManager] no songs in audiosettings");
-		PlaySong(AudioSettings.Songs[0], false, false);
+		PlaySong(AudioSettings.Songs[0], false, true);
 	}
 	
 	Coroutine last = null;
@@ -64,7 +64,7 @@ public class BeatManager : MonoBehaviour
 	public void SetAudioSettings(AudioSettings settings)
 	{
 		AudioSettings = settings;
-		PlaySong(AudioSettings.Songs[0], true, false);
+		PlaySong(AudioSettings.Songs[0], false, true);
 	}
 
 	private void PlaySong(AudioSettings.Song song, bool swap, bool loop)

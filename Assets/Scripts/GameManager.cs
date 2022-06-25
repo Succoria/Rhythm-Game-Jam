@@ -9,14 +9,10 @@ public class GameManager : MonoBehaviour
     public BeatManager BeatManager;
 
     public List<AudioSettings> _audioSettings;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
-            RandomSong();
-           
-            
-            BeatManager.OnBeat += BeatManagerOnOnBeat;
+	    BeatManager.OnBeat += BeatManagerOnOnBeat;
     }
 
     private void BeatManagerOnOnBeat(long beatIndex)
@@ -26,8 +22,6 @@ public class GameManager : MonoBehaviour
 	    {
 		    return;
 	    }
-
-	    RandomSong();
     }
     
     private void Update()
