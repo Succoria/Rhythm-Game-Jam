@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 596784377453916022, guid: 75cd0f0c767709d4c87a93cd05f162d5, type: 3}
+      propertyPath: playerButton
+      value: 305
+      objectReference: {fileID: 0}
     - target: {fileID: 3403869299570889572, guid: 75cd0f0c767709d4c87a93cd05f162d5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3403869299570889579, guid: 75cd0f0c767709d4c87a93cd05f162d5, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75cd0f0c767709d4c87a93cd05f162d5, type: 3}
