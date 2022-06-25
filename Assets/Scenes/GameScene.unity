@@ -231,11 +231,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &156551556 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2144596978172422067, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
-  m_PrefabInstance: {fileID: 5444148095156684610}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &169027498
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +885,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2d230664b91268f46a15caf907820458, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1831,6 +1826,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 50c205667234b4069a33f0da8e2e8b15, type: 2}
+    - target: {fileID: 2144596978172422067, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
+      propertyPath: m_Name
+      value: Beat Button 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2647040249707709677, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
       propertyPath: beatButton
       value: 
@@ -2019,6 +2018,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5496689166881551105, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
+      propertyPath: m_Name
+      value: Beat Button 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6079384915685442574, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2034,7 +2037,7 @@ PrefabInstance:
     - target: {fileID: 7181430669341213187, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
       propertyPath: beatButton
       value: 
-      objectReference: {fileID: 156551556}
+      objectReference: {fileID: 648749386}
     - target: {fileID: 7181430669341213187, guid: 8cec34a06f1b65849aa4de0611b1dce5, type: 3}
       propertyPath: RotationMultiplier
       value: 2
