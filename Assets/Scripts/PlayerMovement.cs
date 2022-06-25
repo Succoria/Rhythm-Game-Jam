@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public AnimationCurve RotationCurve;
 
     private float _lastBeatTime;
+    public float RotationMultiplier;
 
     public KeyCode playerButton;
     // Start is called before the first frame update
@@ -57,6 +58,21 @@ public class PlayerMovement : MonoBehaviour
         t += Time.deltaTime * 4;
         float tEase = Easing.OutBounce(t);
         transform.position = Vector3.Lerp(last,target, tEase);
-        transform.right = Vector3.Lerp(Vector3.right, Vector3.down, RotationCurve.Evaluate(t));
+        transform.right = Vector3.Lerp(Vector3.right, Vector3.down, RotationCurve.Evaluate(t)*RotationMultiplier);
+    }
+
+    void OnCollisionEnter(Collision other) {
+        {
+            if(other.collider.tag == "Death")
+            {
+                gameObject.SetActive(false);
+                Debug.Log("Died");
+            }
+            
+            if(other.collider.tag == "Win")
+            {
+                Debug.Log("Winner");
+            }
+        }
     }
 }
