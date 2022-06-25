@@ -211,6 +211,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Distance: 3
+  RotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0015830994
+      value: 0
+      inSlope: 5.1469913
+      outSlope: 5.1469913
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.0915214
+      value: 0.47920802
+      inSlope: 2.3128061
+      outSlope: 2.3128061
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0015869
+      value: 0.0047187805
+      inSlope: -0.52137923
+      outSlope: -0.52137923
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   playerButton: 0
 --- !u!54 &1666293051630909089
 Rigidbody:
