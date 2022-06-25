@@ -39,4 +39,19 @@ public class PlayerMovement : MonoBehaviour
         transform.position = Vector3.Lerp(last,target, tEase);
         transform.right = Vector3.Lerp(Vector3.right, Vector3.down, RotationCurve.Evaluate(t)*RotationMultiplier);
     }
+
+    void OnCollisionEnter(Collision other) {
+        {
+            if(other.collider.tag == "Death")
+            {
+                gameObject.SetActive(false);
+                Debug.Log("Died");
+            }
+            
+            if(other.collider.tag == "Win")
+            {
+                Debug.Log("Winner");
+            }
+        }
+    }
 }
