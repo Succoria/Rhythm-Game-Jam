@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7931789470446246334}
   - component: {fileID: 8168911444983097792}
   - component: {fileID: 6535484872426482204}
+  - component: {fileID: 8482438701113569683}
   m_Layer: 0
   m_Name: Beat Button 1
   m_TagString: Untagged
@@ -97,6 +98,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &8482438701113569683
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536797978960446400}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ea10bb964a0436409d24ae0d552fa23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6339750488427613855
 GameObject:
   m_ObjectHideFlags: 0
