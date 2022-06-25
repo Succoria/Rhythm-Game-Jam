@@ -464,3 +464,291 @@ Received Import Request.
 Start importing Assets/Plugins/Textures/noise_1.tga using Guid(91f1dfbc4bdcf4dab8e1e11bbc9bed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d59d95e136847df2f7e299d4b319ba8') in 0.009689 seconds 
   Import took 0.011750 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 530.230320 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.56 AM.mpeg
+  artifactKey: Guid(ca44694bdea764943aea0f6a8e028c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.56 AM.mpeg using Guid(ca44694bdea764943aea0f6a8e028c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838a4c196e8dcd13178b5bdccd332e7d') in 0.541397 seconds 
+  Import took 0.554456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.655822 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.58 AM (2).mpeg
+  artifactKey: Guid(25863f34037944dd58ebb307da0243ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.58 AM (2).mpeg using Guid(25863f34037944dd58ebb307da0243ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36d7a6d9ead0f6250cd66fd86295248') in 0.006005 seconds 
+  Import took 0.010725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.493012 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.39 AM.mpeg
+  artifactKey: Guid(bb748635b4c7a463e85b1006d4d5beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.39 AM.mpeg using Guid(bb748635b4c7a463e85b1006d4d5beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c832feac03fe8ff3690a48e0f5ef40f') in 0.022907 seconds 
+  Import took 0.039057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.970145 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.11.10 AM (1).mpeg
+  artifactKey: Guid(fe123bfb6a4ff4689894d98652368c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.11.10 AM (1).mpeg using Guid(fe123bfb6a4ff4689894d98652368c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2375c7f0bc8253fa736d0abba01197b4') in 0.002427 seconds 
+  Import took 0.008446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.019146 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.11.10 AM.mpeg
+  artifactKey: Guid(f5d21ef11b6fd4b68961a041d10495af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.11.10 AM.mpeg using Guid(f5d21ef11b6fd4b68961a041d10495af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956da1825207d1d5ae53b92578ab7d9f') in 0.009354 seconds 
+  Import took 0.013534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.280405 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.11.11 AM.mpeg
+  artifactKey: Guid(9567b857445c04ec8b27ce44d69b7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.11.11 AM.mpeg using Guid(9567b857445c04ec8b27ce44d69b7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c5701edfdd535095dd2d201ac14dce') in 0.007355 seconds 
+  Import took 0.018786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.679326 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.57 AM (1).mpeg
+  artifactKey: Guid(16ce1ed741d304a82bfda7487709c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.57 AM (1).mpeg using Guid(16ce1ed741d304a82bfda7487709c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c5c54d141b5d8347591523e0d85d20') in 0.029705 seconds 
+  Import took 0.040355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.310566 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.57 AM.mpeg
+  artifactKey: Guid(fa196cb923d464f80836112f852e1fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.57 AM.mpeg using Guid(fa196cb923d464f80836112f852e1fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eb728ade41244e9e79d99a7815692a') in 0.003377 seconds 
+  Import took 0.008010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.447302 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.58 AM (1).mpeg
+  artifactKey: Guid(611363da543f446508fd3e7d9a5f06e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.58 AM (1).mpeg using Guid(611363da543f446508fd3e7d9a5f06e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2f7aa27fa1cbef026bee55ea96c339') in 0.002589 seconds 
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.706974 seconds.
+  path: Assets/Sounds/ar.mpeg
+  artifactKey: Guid(9567b857445c04ec8b27ce44d69b7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ar.mpeg using Guid(9567b857445c04ec8b27ce44d69b7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0306ed6f4856a17ff6d00f05638edd') in 0.020739 seconds 
+  Import took 0.031972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.616948 seconds.
+  path: Assets/Sounds/Hardstyle_Loop_03.mpeg
+  artifactKey: Guid(f5d21ef11b6fd4b68961a041d10495af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hardstyle_Loop_03.mpeg using Guid(f5d21ef11b6fd4b68961a041d10495af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dc9938d106864c22ce68bcf0480876') in 0.001733 seconds 
+  Import took 0.006340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.762167 seconds.
+  path: Assets/Sounds/Hardstyle_Loop_02.mpeg
+  artifactKey: Guid(fe123bfb6a4ff4689894d98652368c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hardstyle_Loop_02.mpeg using Guid(fe123bfb6a4ff4689894d98652368c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a339cc27b2f47b580063b48749620ea2') in 0.009208 seconds 
+  Import took 0.013904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.783465 seconds.
+  path: Assets/Sounds/Hardstyle_Loop_01.mpeg
+  artifactKey: Guid(9567b857445c04ec8b27ce44d69b7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hardstyle_Loop_01.mpeg using Guid(9567b857445c04ec8b27ce44d69b7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f87c13565981b0ff22c1df5c9528596') in 0.008234 seconds 
+  Import took 0.017018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.767582 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.08.19 AM.mpeg
+  artifactKey: Guid(28f919d285e1e43ff84f3877c3be0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.08.19 AM.mpeg using Guid(28f919d285e1e43ff84f3877c3be0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ae1786cc1a1b5e2eeed6967caf3dec') in 0.002910 seconds 
+  Import took 0.006531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.496347 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.51 AM.mpeg
+  artifactKey: Guid(21c692ed521fb4e24b8d06dc1fb7a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.51 AM.mpeg using Guid(21c692ed521fb4e24b8d06dc1fb7a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d62c4816741a7a4473fd2834053164') in 0.028876 seconds 
+  Import took 0.042153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.426102 seconds.
+  path: Assets/Sounds/HiHat.mpeg
+  artifactKey: Guid(28f919d285e1e43ff84f3877c3be0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/HiHat.mpeg using Guid(28f919d285e1e43ff84f3877c3be0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b2637b3329d060fa76b725d1d9c2f9') in 0.001980 seconds 
+  Import took 0.004161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.121263 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.08.03 AM.mpeg
+  artifactKey: Guid(872a0bf4378ff4f298ecf2672db5d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.08.03 AM.mpeg using Guid(872a0bf4378ff4f298ecf2672db5d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ac5300c8b22ea1221f49488baa3381') in 0.003015 seconds 
+  Import took 0.006562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.600544 seconds.
+  path: Assets/Sounds/Hihat_02.mpeg
+  artifactKey: Guid(872a0bf4378ff4f298ecf2672db5d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hihat_02.mpeg using Guid(872a0bf4378ff4f298ecf2672db5d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626210f0195085f8404c16f1192a4259') in 0.002954 seconds 
+  Import took 0.006998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.131197 seconds.
+  path: Assets/Sounds/Synth.mpeg
+  artifactKey: Guid(872a0bf4378ff4f298ecf2672db5d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Synth.mpeg using Guid(872a0bf4378ff4f298ecf2672db5d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a126821967f0c445048c62b07aeccdc4') in 0.012989 seconds 
+  Import took 0.024517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.950471 seconds.
+  path: Assets/Sounds/Sawtooth.mpeg
+  artifactKey: Guid(ca44694bdea764943aea0f6a8e028c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Sawtooth.mpeg using Guid(ca44694bdea764943aea0f6a8e028c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3f2c43154920dd17477f9ce011de13') in 0.016687 seconds 
+  Import took 0.033786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.156839 seconds.
+  path: Assets/Sounds/Cool Thing.mpeg
+  artifactKey: Guid(16ce1ed741d304a82bfda7487709c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Cool Thing.mpeg using Guid(16ce1ed741d304a82bfda7487709c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148e519fbd4ffe46f95975b63bba6beb') in 0.003152 seconds 
+  Import took 0.008989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.498925 seconds.
+  path: Assets/Sounds/Hey.mpeg
+  artifactKey: Guid(fa196cb923d464f80836112f852e1fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hey.mpeg using Guid(fa196cb923d464f80836112f852e1fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52e5959732c6ddd08a4f07085ebd9ae') in 0.002921 seconds 
+  Import took 0.007112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.889535 seconds.
+  path: Assets/Sounds/Laser.mpeg
+  artifactKey: Guid(611363da543f446508fd3e7d9a5f06e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Laser.mpeg using Guid(611363da543f446508fd3e7d9a5f06e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca334c41644a20b9ea9ebb443b33475') in 0.001850 seconds 
+  Import took 0.004317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.644558 seconds.
+  path: Assets/Sounds/Laser_02.mpeg
+  artifactKey: Guid(25863f34037944dd58ebb307da0243ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Laser_02.mpeg using Guid(25863f34037944dd58ebb307da0243ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d65cbf2882324ec513ebf7228f42861') in 0.013957 seconds 
+  Import took 0.045019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.874062 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.58 AM.mpeg
+  artifactKey: Guid(2094ccef56dac4748bd63457f6aaab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.58 AM.mpeg using Guid(2094ccef56dac4748bd63457f6aaab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38428fb22e37cfa79aa83028b2c1f5ae') in 0.003446 seconds 
+  Import took 0.007373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.692028 seconds.
+  path: Assets/Sounds/Backtrack_01.mpeg
+  artifactKey: Guid(21c692ed521fb4e24b8d06dc1fb7a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Backtrack_01.mpeg using Guid(21c692ed521fb4e24b8d06dc1fb7a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8d4d35e2a769c65ca4a1bfd48b7462') in 0.037926 seconds 
+  Import took 0.050035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.631338 seconds.
+  path: Assets/Sounds/Synth_02.mpeg
+  artifactKey: Guid(bb748635b4c7a463e85b1006d4d5beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Synth_02.mpeg using Guid(bb748635b4c7a463e85b1006d4d5beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01932c20d4171ca55208a8b1667dac0') in 0.001872 seconds 
+  Import took 0.004720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.399641 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.59 AM.mpeg
+  artifactKey: Guid(113ae949040e844f1adb4c0362c19da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.06.59 AM.mpeg using Guid(113ae949040e844f1adb4c0362c19da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd7f7de9306a885e4d552878203152') in 0.006087 seconds 
+  Import took 0.013955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.513797 seconds.
+  path: Assets/Sounds/TheGrudge.mpeg
+  artifactKey: Guid(113ae949040e844f1adb4c0362c19da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/TheGrudge.mpeg using Guid(113ae949040e844f1adb4c0362c19da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f46b4f9be65f3e67cfdb8272ff19c5') in 0.001826 seconds 
+  Import took 0.004612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.512450 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.14 AM.mpeg
+  artifactKey: Guid(58f648dc60f6046e09aa1ae7078dee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.14 AM.mpeg using Guid(58f648dc60f6046e09aa1ae7078dee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31e05d18457c02064c6ee3e578b1165') in 0.003022 seconds 
+  Import took 0.006953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.528245 seconds.
+  path: Assets/Sounds/BaseDrum.mpeg
+  artifactKey: Guid(58f648dc60f6046e09aa1ae7078dee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BaseDrum.mpeg using Guid(58f648dc60f6046e09aa1ae7078dee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b79df4752552da8fbdad77e9768223') in 0.039062 seconds 
+  Import took 0.048122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077011 seconds.
+  path: Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.25 AM.mpeg
+  artifactKey: Guid(fc911bee97a9c44749f23c5f03200fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WhatsApp Audio 2021-10-06 at 10.07.25 AM.mpeg using Guid(fc911bee97a9c44749f23c5f03200fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a12173b169d66a3b6a6f16351de20d9') in 0.007234 seconds 
+  Import took 0.011066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.783796 seconds.
+  path: Assets/Sounds/Backtrack_02.mpeg
+  artifactKey: Guid(fc911bee97a9c44749f23c5f03200fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Backtrack_02.mpeg using Guid(fc911bee97a9c44749f23c5f03200fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283a9f2da05a425af7a1f752f3718639') in 0.003149 seconds 
+  Import took 0.008237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.266604 seconds.
+  path: Assets/Plugins/Textures/noise_2.tga
+  artifactKey: Guid(9e48c777ed4904727a293ce4486f7c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Textures/noise_2.tga using Guid(9e48c777ed4904727a293ce4486f7c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7143a7adba5bc6af45ff38ad9d35b9fa') in 0.035715 seconds 
+  Import took 0.043840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.212200 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dbd388bb14c61e6aaea27197a16bbd') in 0.008370 seconds 
+  Import took 0.020203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025069 seconds.
+  path: Assets/Scenes/GameplayPrototype.unity
+  artifactKey: Guid(9c6d82e1e39ec42f2b12a268f5d16928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameplayPrototype.unity using Guid(9c6d82e1e39ec42f2b12a268f5d16928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3fcc57080532a5692c37c7cb92b0f') in 0.005671 seconds 
+  Import took 0.009592 seconds .
+
