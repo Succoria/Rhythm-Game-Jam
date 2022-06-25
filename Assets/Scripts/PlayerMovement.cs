@@ -16,10 +16,12 @@ public class PlayerMovement : MonoBehaviour
     public float RotationMultiplier;
 
     public KeyCode playerButton;
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
         beatManager = FindObjectOfType<BeatManager>();
+        gameManager = FindObjectOfType<GameManager>();
         target = transform.position;
         last = target;
     }
@@ -51,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
             if(other.collider.tag == "Win")
             {
                 Debug.Log("Winner");
+                gameManager.WinScreen();
             }
         }
     }

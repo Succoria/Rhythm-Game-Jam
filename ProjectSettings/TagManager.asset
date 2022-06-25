@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Death
   - Win
+  - Red
+  - Pink
+  - Green
+  - Blue
   layers:
   - Default
   - TransparentFX

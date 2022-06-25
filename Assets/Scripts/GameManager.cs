@@ -39,4 +39,11 @@ public class GameManager : MonoBehaviour
     {
 	    BeatManager.SetAudioSettings(_audioSettings[Random.Range(0, _audioSettings.Count)]);
     }
+
+    public void WinScreen()
+    {
+        startBtn.gameObject.SetActive(true);
+        quitBtn.gameObject.SetActive(true);
+    }
+
 }

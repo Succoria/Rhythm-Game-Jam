@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class ButtonFunctions : MonoBehaviour
 {
-    public BeatManager beatManager;
+    public GameObject redWin;
+    public GameObject pinkWin;
+    public GameObject greenWin;
+    public GameObject blueWin;
     // Start is called before the first frame update
     void Start()
     {
-        beatManager = GetComponent<BeatManager>();
+
     }
 
     // Update is called once per frame
@@ -20,7 +23,15 @@ public class ButtonFunctions : MonoBehaviour
     }
     public void StartGame()
     {
-        Debug.Log("button pressed");
+        SceneManager.LoadScene(0);
+        
+        if(redWin != null || pinkWin != null || greenWin != null || blueWin != null)
+        {
+            redWin.SetActive(false);
+            pinkWin.SetActive(false);
+            greenWin.SetActive(false);
+            blueWin.SetActive(false);
+        }
     }
 
     public void QuitGame()
