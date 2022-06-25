@@ -33,4 +33,19 @@ public class PlayerMovement : MonoBehaviour
         t += Time.deltaTime * 4;
         transform.position = Vector3.Lerp(last,target, Easing.OutBounce(t));
     }
+
+    void OnCollisionEnter(Collision other) {
+        {
+            if(other.collider.tag == "Death")
+            {
+                gameObject.SetActive(false);
+                Debug.Log("Died");
+            }
+            
+            if(other.collider.tag == "Win")
+            {
+                Debug.Log("Winner");
+            }
+        }
+    }
 }
