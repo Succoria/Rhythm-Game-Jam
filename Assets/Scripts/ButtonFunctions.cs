@@ -10,6 +10,7 @@ public class ButtonFunctions : MonoBehaviour
     public GameObject pinkWin;
     public GameObject greenWin;
     public GameObject blueWin;
+    public GameObject allLoss;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class ButtonFunctions : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
         
         if(redWin != null || pinkWin != null || greenWin != null || blueWin != null)
         {
@@ -31,6 +33,11 @@ public class ButtonFunctions : MonoBehaviour
             pinkWin.SetActive(false);
             greenWin.SetActive(false);
             blueWin.SetActive(false);
+        }
+
+        if(allLoss != null)
+        {
+            allLoss.SetActive(false);
         }
     }
 

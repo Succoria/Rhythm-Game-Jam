@@ -11,6 +11,13 @@ public class GameManager : MonoBehaviour
     public Button startBtn;
     public Button quitBtn;
 
+    public GameObject player1;
+    public GameObject player2;
+    public GameObject player3;
+    public GameObject player4;
+    public GameObject allLoss;
+    public GameObject background;
+
     public List<AudioSettings> _audioSettings;
     
     void Start()
@@ -33,6 +40,12 @@ public class GameManager : MonoBehaviour
 	    {
 		    Application.Quit();
 	    }
+
+        if(!player1.activeSelf && !player2.activeSelf && !player3.activeSelf && !player4.activeSelf)
+        {
+            allLoss.SetActive(true);
+            WinScreen();
+        }
     }
     
     public void RandomSong()
@@ -44,6 +57,8 @@ public class GameManager : MonoBehaviour
     {
         startBtn.gameObject.SetActive(true);
         quitBtn.gameObject.SetActive(true);
+        background.gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
 
 }
