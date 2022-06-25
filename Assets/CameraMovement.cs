@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    public float unitsPerSecond = 3;
+    public float BPM;
     public List<Transform> Targets;
     
     void Update()
@@ -16,6 +18,10 @@ public class CameraMovement : MonoBehaviour
         }
         averageX /= Targets.Count;
         
-        transform.position = new Vector3(averageX, transform.position.y, transform.position.z);
+        //transform.position = new Vector3(averageX, transform.position.y, transform.position.z);
+        
+        float bps = BPM / 60;
+        float x =  bps * unitsPerSecond * Time.deltaTime;
+        transform.position = new Vector3(transform.position.x + x, transform.position.y, transform.position.z);
     }
 }
