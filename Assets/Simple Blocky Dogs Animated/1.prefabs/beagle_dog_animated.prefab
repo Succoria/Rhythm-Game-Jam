@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 4459283175936888}
   - component: {fileID: 95471806132341462}
   - component: {fileID: -6423429758001878998}
+  - component: {fileID: -6045493245958422024}
   m_Layer: 0
   m_Name: beagle_dog_animated
   m_TagString: Untagged
@@ -406,6 +407,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-6045493245958422024
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636408992374098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1648642918348200
 GameObject:
   m_ObjectHideFlags: 0

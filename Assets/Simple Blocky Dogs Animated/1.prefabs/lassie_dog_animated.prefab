@@ -192,6 +192,7 @@ GameObject:
   - component: {fileID: 4356614742065488}
   - component: {fileID: 95220444029820330}
   - component: {fileID: 1350757899769693816}
+  - component: {fileID: 8718141951014096472}
   m_Layer: 0
   m_Name: lassie_dog_animated
   m_TagString: Untagged
@@ -250,6 +251,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &8718141951014096472
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648717403906960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1664661399174686
 GameObject:
   m_ObjectHideFlags: 0

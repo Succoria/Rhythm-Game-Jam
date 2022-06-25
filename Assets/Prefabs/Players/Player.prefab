@@ -785,7 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f76adf609c92d2d4b80cf41c65d0c87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Distance: 4
+  Distance: 3.7
   RotationCurve:
     serializedVersion: 2
     m_Curve:
@@ -821,6 +821,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   RotationMultiplier: 0
   playerButton: 0
+  beatButton: {fileID: 0}
 --- !u!1 &5811006686960984806
 GameObject:
   m_ObjectHideFlags: 0

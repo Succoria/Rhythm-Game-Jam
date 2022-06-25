@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4908079578003728}
   - component: {fileID: 95110493196020864}
   - component: {fileID: 3966864069759718343}
+  - component: {fileID: 47776899263674227}
   m_Layer: 0
   m_Name: samoyed_dog_animated
   m_TagString: Untagged
@@ -69,6 +70,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &47776899263674227
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052956364922748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1091561121195122
 GameObject:
   m_ObjectHideFlags: 0

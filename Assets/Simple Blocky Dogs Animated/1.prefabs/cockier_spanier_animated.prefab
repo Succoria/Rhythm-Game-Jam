@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 4787566621259568}
   - component: {fileID: 95740633364538598}
   - component: {fileID: 720019703807105785}
+  - component: {fileID: -7938931269243903287}
   m_Layer: 0
   m_Name: cockier_spanier_animated
   m_TagString: Untagged
@@ -354,6 +355,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-7938931269243903287
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460832765440916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1470390250720944
 GameObject:
   m_ObjectHideFlags: 0

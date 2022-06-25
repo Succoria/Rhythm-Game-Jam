@@ -449,6 +449,7 @@ GameObject:
   - component: {fileID: 4556933467964354}
   - component: {fileID: 95407710864669058}
   - component: {fileID: 6355416318106927063}
+  - component: {fileID: -270592523224290205}
   m_Layer: 0
   m_Name: golden_retriever_animated
   m_TagString: Untagged
@@ -507,6 +508,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &-270592523224290205
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893091692144934}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1906379414319734
 GameObject:
   m_ObjectHideFlags: 0
