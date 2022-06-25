@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 	    BeatManager.OnBeat += BeatManagerOnOnBeat;
-        Time.timeScale = 0;
     }
 
     private void BeatManagerOnOnBeat(long beatIndex)

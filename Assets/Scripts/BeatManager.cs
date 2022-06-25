@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class BeatManager : MonoBehaviour 
 {
@@ -16,6 +17,7 @@ public class BeatManager : MonoBehaviour
 	private float currentBps;
 	private int lastBeatSample;
 	private float currentFrequencyInverse;
+	public Button startBtn;
 
 	long beatCount = 0;
 
