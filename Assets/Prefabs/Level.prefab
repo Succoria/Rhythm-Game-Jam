@@ -344,7 +344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5444148094960922920}
   m_LocalRotation: {x: -0.250065, y: -0, z: -0, w: 0.9682291}
-  m_LocalPosition: {x: -2.176571, y: 7.15, z: 23.97}
+  m_LocalPosition: {x: -2.176571, y: 6.83, z: 23.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 789774881981832181}
@@ -714,7 +714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8245998377291096817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.4, y: -0.302, z: 13.402}
+  m_LocalPosition: {x: 10.4, y: 0.5, z: 14.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5444148095032371766}
@@ -733,6 +733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ToSpawn: {fileID: 6637704863428889121, guid: 3289c48aa177c1d4d8d60e55e294bed4, type: 3}
+  SpawnRotation: {x: 0, y: -90, z: 90}
 --- !u!1001 &1403807432961902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -796,6 +797,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -54.589
       objectReference: {fileID: 0}
+    - target: {fileID: 2910680742634567262, guid: 9a99a9c4acc6d0b499ec3cf821e6c501, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 30fb4adc6a1d97c438cf934097b742a1, type: 2}
+    - target: {fileID: 4165950717708195808, guid: 9a99a9c4acc6d0b499ec3cf821e6c501, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165950717708195808, guid: 9a99a9c4acc6d0b499ec3cf821e6c501, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165950717708195808, guid: 9a99a9c4acc6d0b499ec3cf821e6c501, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775790972075696861, guid: 9a99a9c4acc6d0b499ec3cf821e6c501, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c196bbac586efa4c9708b919df800cb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a99a9c4acc6d0b499ec3cf821e6c501, type: 3}
 --- !u!4 &2561645807569291803 stripped
@@ -810,9 +831,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5444148094960922921}
     m_Modifications:
+    - target: {fileID: 3291737324602528356, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0758662570fb63e4f8709c7c2cfbd65a, type: 2}
     - target: {fileID: 5305409252888344676, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
       propertyPath: m_Name
       value: Beat Button 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905832577300506457, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905832577300506457, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905832577300506457, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8642250763137209804, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
       propertyPath: m_RootOrder
@@ -866,6 +903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -54.589
       objectReference: {fileID: 0}
+    - target: {fileID: 8936151537843914471, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cc030d5253712d944a709755895b4a50, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8eea62eee317d47a7a15dcf8ed0f92, type: 3}
 --- !u!4 &8216748733256752809 stripped
@@ -950,6 +991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beat Button
       objectReference: {fileID: 0}
+    - target: {fileID: 2373610858388159811, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b8c33c860e4fe74c81f6ce060e8c27a, type: 2}
     - target: {fileID: 3106398810082340456, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1002,6 +1047,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -54.589
       objectReference: {fileID: 0}
+    - target: {fileID: 3550099648711892221, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550099648711892221, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550099648711892221, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8168911444983097792, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb6dfc81f1400af469b8a1f5be7b40d2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88d9f4fea70d5324a8487feeaa149ef6, type: 3}
 --- !u!4 &789774881981832181 stripped
@@ -1016,6 +1077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5444148094960922921}
     m_Modifications:
+    - target: {fileID: 298134042124265984, guid: bd3756343833b9442b85756b3c51160e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb2628201803d0f4f8038f7e3f138b02, type: 2}
     - target: {fileID: 1139349586073073963, guid: bd3756343833b9442b85756b3c51160e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1068,10 +1133,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -54.589
       objectReference: {fileID: 0}
+    - target: {fileID: 1555872695513435070, guid: bd3756343833b9442b85756b3c51160e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555872695513435070, guid: bd3756343833b9442b85756b3c51160e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555872695513435070, guid: bd3756343833b9442b85756b3c51160e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3566886868886819971, guid: bd3756343833b9442b85756b3c51160e, type: 3}
       propertyPath: m_Name
       value: Beat Button 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6164900702812372611, guid: bd3756343833b9442b85756b3c51160e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d16a3402a8fc6a49b3cee255d6f77de, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd3756343833b9442b85756b3c51160e, type: 3}
 --- !u!4 &5178828501912210295 stripped
