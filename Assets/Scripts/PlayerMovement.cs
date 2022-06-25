@@ -5,6 +5,8 @@ using UnityEngine.UIElements.Experimental;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private float minTimeBetweenMovements = 0.375f - 0.075f;
+
     private BeatManager beatManager;
     private Vector3 last;
     private Vector3 target;
@@ -13,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     public AnimationCurve RotationCurve;
 
+    private float _lastBeatTime;
     public float RotationMultiplier;
 
     public KeyCode playerButton;
@@ -29,9 +32,27 @@ public class PlayerMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(playerButton))
         {
-            last = target;
-            target += Vector3.right * Distance;
-            t = 0;
+            if (Time.time - _lastBeatTime < (minTimeBetweenMovements)) 
+            {
+                Debug.LogWarning("FAILNERD");
+                //FAIL! NERD
+            
+                last = target;
+                target -= Vector3.right * Distance * 0.5f;
+                t = 0;
+                _lastBeatTime = Time.time;
+                
+                
+            }
+            else
+            {
+                
+                last = target;
+                target += Vector3.right * Distance;
+                t = 0;
+                _lastBeatTime = Time.time;
+
+            }
         }
 
         t += Time.deltaTime * 4;
