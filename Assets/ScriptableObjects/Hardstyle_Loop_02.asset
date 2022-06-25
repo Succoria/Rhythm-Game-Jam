@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8404b828371c4e49b7a768bf44c4e3c, type: 3}
-  m_Name: Song2
+  m_Name: Hardstyle_Loop_02
   m_EditorClassIdentifier: 
   Songs:
   - clips:
-    - clip: {fileID: 8300000, guid: ab1681c2cdde01944b16ac70389f6763, type: 3}
+    - clip: {fileID: 8300000, guid: eee6cbc1a7ac099499400bad7dd960fc, type: 3}
       IsPrimary: 1
     Bpm: 160
     DeplayBeforePlaySeconds: 0
