@@ -458,6 +458,7 @@ Transform:
   - {fileID: 488340818}
   - {fileID: 1062603939}
   - {fileID: 5285320482993224244}
+  - {fileID: 7434161763939143816}
   m_Father: {fileID: 5444148096562292319}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 28.963, y: 0, z: 0}
@@ -816,6 +817,60 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!1 &5668898248062412715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7434161763939143816}
+  - component: {fileID: 749335538259701094}
+  m_Layer: 0
+  m_Name: DogSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7434161763939143816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668898248062412715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.77, y: 15, z: 15.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5444148095032371766}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &749335538259701094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668898248062412715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c99e6d29816e3f45a47c493384f8b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameObjects:
+  - {fileID: 1636408992374098, guid: 6e90393c4c16e4f6cac4bacee0b912a0, type: 3}
+  - {fileID: 1514025921452338, guid: 90bed32dca8d14c3cb2dad580c85041f, type: 3}
+  - {fileID: 1438078582202318, guid: 56e7eca4771ed476c97f713922baabcf, type: 3}
+  - {fileID: 1733208381805602, guid: 64c0b1f1de85b4891814d957c6aa7e62, type: 3}
+  - {fileID: 1460832765440916, guid: 9d89829dd4490438d85ec10def589782, type: 3}
+  - {fileID: 1893091692144934, guid: 435bfe33f76bd49869095a274fc6dee0, type: 3}
+  - {fileID: 1648717403906960, guid: e953d27a7d48e49b7b5a1aa83c7d67d0, type: 3}
+  - {fileID: 1691970988659808, guid: 717c2369c77cb4209add9d6d788eab37, type: 3}
+  - {fileID: 1052956364922748, guid: 6b70b5c4f6cc14dce95f85ff63762148, type: 3}
+  SpawnTime: 0.25
 --- !u!1 &8245998377291096817
 GameObject:
   m_ObjectHideFlags: 0
