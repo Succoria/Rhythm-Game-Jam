@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
     public KeyCode playerButton;
     private GameManager gameManager;
+
+    public GameObject beatButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 Debug.Log("Died");
+                beatButton.SetActive(false);
             }
             
             if(other.collider.tag == "Win")
