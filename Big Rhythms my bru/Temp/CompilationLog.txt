@@ -1,2 +1,0 @@
-# Starting compiling Assembly-CSharp-firstpass.dll
-/Users/macbookair/Documents/Unity/2020.3.25f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-089c0f47cdc6143c0ad8d754ff5eaec5
