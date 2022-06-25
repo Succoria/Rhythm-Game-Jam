@@ -5,7 +5,7 @@ using UnityEngine.UIElements.Experimental;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float minTimeBetweenMovements = 0.375f + 0.075f;
+    private float minTimeBetweenMovements = 0.375f - 0.075f;
 
     private BeatManager beatManager;
     private Vector3 last;
