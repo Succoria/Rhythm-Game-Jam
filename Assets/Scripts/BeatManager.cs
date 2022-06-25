@@ -56,7 +56,7 @@ public class BeatManager : MonoBehaviour
 			while (a.audioLowPassFilter.cutoffFrequency < 22000)
 			{
 				yield return null;
-				a.audioLowPassFilter.cutoffFrequency += UnityEngine.Time.deltaTime * 10000;
+				a.audioLowPassFilter.cutoffFrequency += Time.deltaTime * 10000;
 			}
 		}
 	}
