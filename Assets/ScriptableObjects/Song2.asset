@@ -15,7 +15,7 @@ MonoBehaviour:
   Songs:
   - clips:
     - clip: {fileID: 8300000, guid: ab1681c2cdde01944b16ac70389f6763, type: 3}
-      IsPrimary: 0
+      IsPrimary: 1
     Bpm: 160
     DeplayBeforePlaySeconds: 0
     StartBeatDelaySeconds: 0
